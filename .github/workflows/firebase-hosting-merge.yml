@@ -15,8 +15,8 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BT3103_ZICHAR }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BT3103_ZICHAR_AB201 }}'
           channelId: live
-          projectId: bt3103-zichar
+          projectId: bt3103-zichar-ab201
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
