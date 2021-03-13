@@ -1,11 +1,11 @@
 import firebase from "firebase";
 var firebaseConfig = {
-	apiKey: "AIzaSyAwVI09y0zr7AX3OicCfBdOTGE5AIn1qMc",
-	authDomain: "bt3103-week-6-58276.firebaseapp.com",
-	projectId: "bt3103-week-6-58276",
-	storageBucket: "bt3103-week-6-58276.appspot.com",
-	messagingSenderId: "702378927289",
-	appId: "1:702378927289:web:16b7dab7f54ee59a952768",
+	apiKey: "AIzaSyCV3iBPerBC-sjhWiuFoVdD7SPxZ7pc1nY",
+	authDomain: "bt3103-zichar.firebaseapp.com",
+	projectId: "bt3103-zichar",
+	storageBucket: "bt3103-zichar.appspot.com",
+	messagingSenderId: "324107074590",
+	appId: "1:324107074590:web:446e5b5f0fff5b0c23020f",
 };
 firebase.initializeApp(firebaseConfig);
 var database = firebase.firestore();
